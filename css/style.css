@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: Rubik, sans-serif;
+}
+body {
+	background-color: #f0f0f5;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	text-decoration: none;
+	font-style: italic;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Ubuntu, sans-serif;
+}
+button:focus {
+	outline: 0 auto -webkit-focus-ring-color;
+	outline-offset: 0;
+}
+input[type="number"] {
+	outline: 0 auto -webkit-focus-ring-color;
+	outline-offset: 0;
+}
